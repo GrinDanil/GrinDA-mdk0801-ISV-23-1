@@ -1,0 +1,58 @@
+body {
+    background: rgb(191, 175, 196);
+}
+
+nav {
+    background: rgb(139, 72, 165);
+    height: 35px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+section {
+    background: rgb(202, 197, 197);
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+main {
+    width: 70%;
+}
+
+.content aside{
+    width: 30%;
+    background-color: rgb(165, 130, 197);
+    height: 525px;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+    text-align: center;
+}
+
+footer {
+    background: goldenrod;
+    text-align: center;
+    border-radius: 20px;
+}

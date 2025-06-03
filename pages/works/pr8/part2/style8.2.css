@@ -1,0 +1,48 @@
+.content{
+    width: 60%;
+    margin: 0 auto;
+}
+.block{
+    border: 1px solid rgb(0, 0, 0);
+    margin: 20px;
+    padding: 0 15px;
+    display: block;
+}
+.block a{
+    display: block;
+    text-align: right;
+    margin: 30px;
+}
+.img{
+    float: left;
+    height: 122px;
+    width: 220px;
+    margin-right: 10px;
+}
+.img1{
+    background: url(../images/1.png) center center;
+    background-size: cover;
+}
+.img2{
+    background: url(../images/2.png) center center;
+    background-size: cover;
+}
+.img3{
+    background: url(../images/3.png) center center;
+    background-size: cover;
+}
+main{
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    background: url(../../../../img/plug.png) center center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+}

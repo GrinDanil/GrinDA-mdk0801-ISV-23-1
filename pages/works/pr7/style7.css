@@ -1,0 +1,100 @@
+#text-red{
+    color: red;
+}
+
+#text-bold{
+    font-weight: bold;
+}
+
+.p1{
+    text-align: center;
+}
+
+#fam{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#size{
+    font-size: 22px;
+}
+
+#style{
+    font-style: italic;
+}
+
+.heighT{
+    line-height: 2.5;
+}
+
+.space{
+    letter-spacing: 2px;
+}
+
+.spacE{
+    word-spacing: 5px;
+}
+
+#dec{
+    text-decoration: underline;
+}
+
+.transform{
+    text-transform: uppercase;
+}
+
+.ind{
+    text-indent: 30px;
+}
+
+.shadow{
+    text-shadow: 2px 2px 4px #000;
+}
+
+.spAce{
+    white-space: nowrap;
+}
+
+#break{
+    word-break: break-all;
+}
+
+#siZe{
+    tab-size: 16;
+}
+
+.dir{
+    direction: rtl;
+}
+
+#letter::first-letter{
+    font-size: 2em;
+  margin-right: 2px; 
+  color: #EE9966;
+  font-weight: bold;
+  text-shadow: -1px -1px 1px white, 1px 1px 1px #9E9D99;
+
+}
+
+#quot{
+    quotes:'«' '»';
+}
+
+#quot::before {
+    content: open-quote;
+}
+
+#quot::after {
+    content: close-quote;
+}
+
+#bidi{
+    unicode-bidi: embed;
+}
+
+#vAr {
+    font-variant: small-caps;
+}
+
+.test {
+    text-align: center;
+}

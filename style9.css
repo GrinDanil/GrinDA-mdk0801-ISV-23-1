@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.line {
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.line li {
+    display: inline-block;
+    margin-right: 30px;
+    padding: 10px 15px;
+    background-color: #fab2df;
+    list-style-type: none;
+}
+
+.links {
+    margin-bottom: 20px;
+}
+
+.links a {
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    background-color: rgb(37, 37, 250);
+    color: white;
+    text-decoration: none;
+    width: 215px;
+}
+
+.blocks {
+   padding-top: 15px;
+   padding-bottom: 30px;
+   padding-left: 15px;
+}
+
+.blocks div {
+    display: inline;
+    margin-right: 25px;
+    padding: 15px 15px;
+    background-color: #ff1e30;
+}
+
+.blocks .non {
+    display: none;
+}
+
+.links-markers a {
+    display: list-item;
+    padding: 10px;
+    color: #ffffff;
+    background: black;
+    width: 200px;
+}
+
+.post1, .post2 {
+    background-color: #930303;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.image {
+    background: url(img/weather-blizzard.jpg);
+    width: 100px;
+    height: 90px;
+    background-repeat: no-repeat;
+    border: 2px dashed red;
+    float: left;
+    margin-right: 10px;
+}
+
+.post2 .image {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
