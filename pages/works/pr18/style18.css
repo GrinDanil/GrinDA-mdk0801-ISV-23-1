@@ -1,0 +1,87 @@
+@font-face {
+    font-family: TEXT;
+    src: url(../pr18/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+.image {
+    background: url(img18/cakes.jpg);
+    width: 551px;
+    height: 735px;
+}
+
+body {
+    font-family: TEXT;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    height: 725px;
+    margin: 5px 0;
+    width: 550px;
+}
+
+h1 {
+   
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #000000;
+    text-align: center;
+}
+
+.LoreM {
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 27px;
+    text-align: center;
+}
+
+.menu {
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-item {
+    font-size: 27px;
+    padding-bottom: 30px;
+    border-bottom: 0px dashed #ecf0f1;
+    
+}
+
+
+
+.order {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40%;
+    margin-left: 160px;
+}
+
+section {
+    background-color: rgb(231, 226, 226);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.sec2 {
+    margin: 20px;
+}

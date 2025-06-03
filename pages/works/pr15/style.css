@@ -1,0 +1,75 @@
+
+body {
+    width: 1440px;
+    height: 1024px;
+    margin: auto;
+}
+h1 {
+    width: 1313px;
+    height: 58px;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    
+}
+
+.Img {
+    margin-top: 111px;
+    display: grid;
+    height: 631px;
+    grid-template-columns: 489px 391px 391px;
+    grid-template-rows: 255px 97px 239px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Img1 {
+    background: url(img/image1.png);
+    background-size: cover;
+    grid-row: span 3;
+}
+
+.Img2 {
+    background: url(img/image2.png);
+    background-size: cover;
+}
+
+.Img3 {
+    background: url(img/image3.png);
+    background-size: cover;
+}
+
+.Img4 {
+    grid-column: span 2;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.Img5 {
+    background: url(img/image4.png);
+    background-size: cover;
+    grid-column: 2/3;
+}
+
+.Img6 {
+    background: url(img/image5.png);
+    background-size: cover;
+    grid-column: 3/4;
+}
+
+@font-face {
+    font-family: Alumni;
+    src: url(fonts/AlumniSans-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: Alumni;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
